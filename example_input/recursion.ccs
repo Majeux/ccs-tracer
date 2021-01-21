@@ -1,0 +1,2 @@
+// note: for ease of parsing we use _rec instead of rec
+_rec x. α.x

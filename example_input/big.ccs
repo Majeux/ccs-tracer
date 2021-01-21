@@ -1,0 +1,8 @@
+// complicated example that uses all operations:
+// p = rec x. (α.x + β.x)
+// q = rec x. (α.x + γ.x)
+// r = rec x. !α.x
+//
+// ((p | q) |r)\α
+
+((_rec x. (α.x + β.x) | _rec x. (α.x + γ.x)) | _rec x. !α.x)\α

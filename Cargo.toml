@@ -1,0 +1,14 @@
+[package]
+name = "ccs-tracer"
+version = "1.0.0"
+authors = ["Majeux", "dskleingeld"]
+edition = "2018"
+
+[dependencies]
+peg = "0.6"
+structopt = { version = "0.3", features = [ "paw" ] }
+paw = "1.0"
+log = "0.4"
+simple_logger = "1"
+derivative = "2"
+derive-new = "0.5"
